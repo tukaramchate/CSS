@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cryptography Experiments Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-a"></div>
+    <div class="bg-orb orb-b"></div>
+    <div class="grid-overlay"></div>
+
+    <main class="page">
+      <section class="hero reveal">
+        <p class="eyebrow">College Practical Website</p>
+        <h1>Cryptography Experiments</h1>
+        <p class="subtitle">
+          One place for your 8 practical experiments and copy document.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="copy.pdf" download>Manual</a>
+          <a class="btn ghost" href="CSS Outputs.pdf" download>Outputs</a>
+        </div>
+      </section>
+
+      <section class="stats reveal">
+        <article class="stat-card">
+          <p class="stat-label">Total Experiments</p>
+          <p class="stat-value">8</p>
+        </article>
+        <article class="stat-card">
+          <p class="stat-label">Subject</p>
+          <p class="stat-value">Cryptography</p>
+        </article>
+        <article class="stat-card">
+          <p class="stat-label">Last Updated</p>
+          <p id="today" class="stat-value">-</p>
+        </article>
+      </section>
+
+      <section class="experiments">
+        <div class="section-head reveal">
+          <h2>Experiment List</h2>
+          <p>Each experiment has two options: Open or Download.</p>
+        </div>
+
+        <div class="cards" id="cards">
+          <article class="exp-card reveal">
+            <span class="exp-no">Experiment 1</span>
+            <h3>Caesar Cipher</h3>
+            <p>Classical substitution cipher implementation.</p>
+            <div class="exp-actions">
+              <a class="action-btn action-open" href="CaesarCipher.java" target="_blank" rel="noopener">Open</a>
+              <a class="action-btn action-download" href="CaesarCipher.java" download>Download</a>
+            </div>
+          </article>
+
+          <article class="exp-card reveal">
+            <span class="exp-no">Experiment 2</span>
+            <h3>Columnar Transposition Cipher</h3>
+            <p>Encryption/decryption using ordered column arrangement.</p>
+            <div class="exp-actions">
+              <a class="action-btn action-open" href="ColumnarTranspositionCipher.java" target="_blank" rel="noopener">Open</a>
+              <a class="action-btn action-download" href="ColumnarTranspositionCipher.java" download>Download</a>
+            </div>
+          </article>
+
+          <article class="exp-card reveal">
+            <span class="exp-no">Experiment 3</span>
+            <h3>Diffie-Hellman Key Exchange</h3>
+            <p>Secure shared secret generation over public channel.</p>
+            <div class="exp-actions">
+              <a class="action-btn action-open" href="DiffieHellmanKeyExchange.java" target="_blank" rel="noopener">Open</a>
+              <a class="action-btn action-download" href="DiffieHellmanKeyExchange.java" download>Download</a>
+            </div>
+          </article>
+
+          <article class="exp-card reveal">
+            <span class="exp-no">Experiment 4</span>
+            <h3>Digital Signature Demo</h3>
+            <p>Message integrity and authenticity verification flow.</p>
+            <div class="exp-actions">
+              <a class="action-btn action-open" href="DigitalSignatureDemo.java" target="_blank" rel="noopener">Open</a>
+              <a class="action-btn action-download" href="DigitalSignatureDemo.java" download>Download</a>
+            </div>
+          </article>
+
+          <article class="exp-card reveal">
+            <span class="exp-no">Experiment 5</span>
+            <h3>One Time Pad Cipher</h3>
+            <p>Perfect secrecy concept using random key stream.</p>
+            <div class="exp-actions">
+              <a class="action-btn action-open" href="OneTimePadCipher.java" target="_blank" rel="noopener">Open</a>
+              <a class="action-btn action-download" href="OneTimePadCipher.java" download>Download</a>
+            </div>
+          </article>
+
+          <article class="exp-card reveal">
+            <span class="exp-no">Experiment 6</span>
+            <h3>Playfair Cipher</h3>
+            <p>Digraph-based matrix encryption technique.</p>
+            <div class="exp-actions">
+              <a class="action-btn action-open" href="PlayfairCipher.java" target="_blank" rel="noopener">Open</a>
+              <a class="action-btn action-download" href="PlayfairCipher.java" download>Download</a>
+            </div>
+          </article>
+
+          <article class="exp-card reveal">
+            <span class="exp-no">Experiment 7</span>
+            <h3>Rail Fence Cipher</h3>
+            <p>Zig-zag transposition strategy for plain text.</p>
+            <div class="exp-actions">
+              <a class="action-btn action-open" href="RailFenceCipher.java" target="_blank" rel="noopener">Open</a>
+              <a class="action-btn action-download" href="RailFenceCipher.java" download>Download</a>
+            </div>
+          </article>
+
+          <article class="exp-card reveal">
+            <span class="exp-no">Experiment 8</span>
+            <h3>RSA Secure System</h3>
+            <p>Asymmetric encryption and secure communication basics.</p>
+            <div class="exp-actions">
+              <a class="action-btn action-open" href="RSASecureSystem.java" target="_blank" rel="noopener">Open</a>
+              <a class="action-btn action-download" href="RSASecureSystem.java" download>Download</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
